@@ -1,2 +1,2 @@
 # forms
-form array at html with php
+Read an array of an html form with php

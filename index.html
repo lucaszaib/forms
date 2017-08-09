@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Array at Html With Php</title>
+</head>
+<body>
+<form action="mailer.php" method="POST">
+<!-- You can use a Foreach in a script php for example-->
+<!-- product 1 -->
+	<input type="text" name="category[0]" value="cat1" ><br>
+	<input type="text" name="products[0]" value="pro1" ><br>
+	<input type="text" name="price[0]" value="price1" ><br>
+<br><br>
+<!-- product 2 -->
+	<input type="text" name="category[1]" value="cat2" ><br>
+	<input type="text" name="products[1]" value="pro2" ><br>
+	<input type="text" name="price[1]" value="price2" ><br>
+<br><br>
+<!-- product 3 -->	
+	<input type="text" name="category[2]" value="cat3" ><br>
+	<input type="text" name="products[2]" value="pro3" ><br>
+	<input type="text" name="price[2]" value="price3" ><br>
+<br><br>
+<!-- end foreach -->
+	<button type="submit">Send</button>
+</form>
+</body>
+</html>
